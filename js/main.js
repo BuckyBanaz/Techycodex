@@ -74,8 +74,8 @@
     });
 
 
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
+    // Testimonials intro
+    $(".testimonial-intro").owlintro({
         autoplay: true,
         smartSpeed: 1500,
         dots: true,
@@ -98,8 +98,8 @@
     });
 
 
-    // Vendor carousel
-    $('.vendor-carousel').owlCarousel({
+    // Vendor intro
+    $('.vendor-intro').owlintro({
         loop: true,
         margin: 45,
         dots: false,

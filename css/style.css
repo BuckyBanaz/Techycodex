@@ -215,35 +215,35 @@ h6,
 }
 
 
-/*** Carousel ***/
-.carousel-caption {
+/*** intro ***/
+.intro-caption {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
+    background: rgba(92, 88, 88, 0.7);
     z-index: 1;
 }
 
 @media (max-width: 576px) {
-    .carousel-caption h5 {
+    .intro-caption h5 {
         font-size: 14px;
         font-weight: 500 !important;
     }
 
-    .carousel-caption h1 {
+    .intro-caption h1 {
         font-size: 30px;
         font-weight: 600 !important;
     }
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.intro-control-prev,
+.intro-control-next {
     width: 10%;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.intro-control-prev-icon,
+.intro-control-next-icon {
     width: 3rem;
     height: 3rem;
 }
@@ -350,14 +350,14 @@ h6,
 
 
 /*** Testimonial ***/
-.testimonial-carousel .owl-dots {
+.testimonial-intro .owl-dots {
     margin-top: 15px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
-.testimonial-carousel .owl-dot {
+.testimonial-intro .owl-dot {
     position: relative;
     display: inline-block;
     margin: 0 5px;
@@ -368,21 +368,21 @@ h6,
     transition: .5s;
 }
 
-.testimonial-carousel .owl-dot.active {
+.testimonial-intro .owl-dot.active {
     width: 30px;
     background: var(--primary);
 }
 
-.testimonial-carousel .owl-item.center {
+.testimonial-intro .owl-item.center {
     position: relative;
     z-index: 1;
 }
 
-.testimonial-carousel .owl-item .testimonial-item {
+.testimonial-intro .owl-item .testimonial-item {
     transition: .5s;
 }
 
-.testimonial-carousel .owl-item.center .testimonial-item {
+.testimonial-intro .owl-item.center .testimonial-item {
     background: #FFFFFF !important;
     box-shadow: 0 0 30px #DDDDDD;
 }
@@ -473,7 +473,7 @@ h6,
 }
 
 .bg-header {
-    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/intro-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
